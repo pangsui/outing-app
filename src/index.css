@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  background-color: #f4f8fb;
+  background-color: #d8ceef;
 }
 p {
   line-height: 1.6;
@@ -35,7 +35,8 @@ p {
   grid-template-columns: 34rem 44rem;
   column-gap: 4rem;
   align-items: start;
-  margin-top: 6rem;
+  margin-top: 19rem;
+  margin-bottom: 3rem;
 }
 /* .friendlist-ul,
 .form-split-bill {
@@ -52,7 +53,7 @@ p {
   flex-direction: column;
   gap: 2rem;
 }
-.header h2 {
+.header h1 {
   text-align: center;
   /* margin-bottom: 1.5rem; */
 }
@@ -204,9 +205,18 @@ form h2 {
   }
   .header {
     position: unset;
-    margin-top: 13rem;
+    margin-top: 25rem;
   }
   .header-content {
     margin-bottom: 3rem;
+  }
+  .form-split-bill h2 {
+    text-align: center;
+  }
+  .add-friend-close {
+    margin-bottom: 4rem;
+  }
+  .form-split-bill {
+    display: none;
   }
 }

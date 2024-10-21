@@ -92,7 +92,8 @@ function Header() {
         <p>
           Who would you like to go out with today? Please select from the list
           by clicking the 'Select' button, or add a new friend by clicking the
-          'Add Friend' button.
+          'Add Friend' button. After, click on 'Select' to chose who will pay
+          the bill 😇.
         </p>
       </div>
     </header>
