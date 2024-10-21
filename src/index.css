@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   color: #495057;
   display: flex;
   align-items: center;
@@ -25,6 +25,7 @@ body {
   font-weight: 500;
   background-color: #d8ceef;
 }
+
 p {
   line-height: 1.6;
 }
@@ -46,7 +47,7 @@ p {
   position: absolute;
   left: 30rem;
   right: 30rem;
-  bottom: 80vh;
+  bottom: 75vh;
 }
 .header-content {
   display: flex;
@@ -199,24 +200,32 @@ form h2 {
 }
 
 @media (max-width: 786px) {
+  body {
+    height: unset;
+  }
   .app {
     grid-template-columns: 34rem;
-    margin-top: 16rem;
+    margin-top: -25rem;
   }
   .header {
     position: unset;
-    margin-top: 25rem;
+    margin-top: 28rem;
   }
   .header-content {
     margin-bottom: 3rem;
   }
+  /* .header {
+    position: absolute;
+    left: 30rem;
+    right: 30rem;
+    bottom: 75vh;
+  } */
   .form-split-bill h2 {
     text-align: center;
   }
-  .add-friend-close {
-    margin-bottom: 4rem;
-  }
+
   .form-split-bill {
-    display: none;
+    margin-top: 3rem;
+    /* display: none; */
   }
 }
