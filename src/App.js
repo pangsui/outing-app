@@ -202,10 +202,10 @@ function FormSplitBill({
     e.preventDefault();
     if (bill > myExpense) {
       if (selectedFriend.name === whoIsPayx) {
-        selectedFriend.balance = -myExpense;
+        selectedFriend.balance += -myExpense;
         setBalance(-myExpense);
       } else {
-        selectedFriend.balance = bill - myExpense;
+        selectedFriend.balance += bill - myExpense;
         setBalance(bill - myExpense);
       }
       setBalance(0);
