@@ -8,13 +8,13 @@ const initialFriends = [
   },
   {
     id: 933372,
-    name: "Alexandre",
+    name: "Muh",
     image: "https://i.pravatar.cc/48?u=933372",
     balance: 20,
   },
   {
     id: 499476,
-    name: "Cedric",
+    name: "Kum",
     image: "https://i.pravatar.cc/48?u=499476",
     balance: 0,
   },
@@ -222,14 +222,14 @@ function FormSplitBill({
       <label>💰 Bill value</label>
       <input
         value={bill}
-        type="text"
+        type="number"
         onChange={(e) => setBill(+e.target.value)}
       />
 
       <label>💰 Your expense</label>
       <input
         value={myExpense}
-        type="text"
+        type="number"
         onChange={(e) => setMyExpense(+e.target.value)}
       />
 
